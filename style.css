@@ -5,7 +5,17 @@
     width: 1920px;
     background-color: #EEEFF1;    
 }
-
+/* size divise (widht: 1440px, 1024px, 768px, 425px, 375px) */
+/* @media (max-width: 1024px) {
+    .First_screen{
+        width: 1024px;
+    }
+}
+@media (max-width: 768px) {
+    .First_screen{
+        width: 768px;
+    }
+} */
 .first-screen_menu{
     display: flex;
     padding-top: 79px;
@@ -17,6 +27,53 @@
     line-height: 26px;
     color: black;
     text-transform: uppercase;
+}
+@media(max-width: 1440px){
+    .first_screen_menu{
+        display: flex;
+        padding-top: 55px;
+        padding-left: 280px;
+        width: 428px;
+        gap: 29px;
+        font-size: 18px;
+    }
+}
+@media(max-width: 1024px){
+    .first_screen_menu{
+        padding-top: 40px;
+        padding-left: 200px;
+        width: 305px;
+        gap: 21px;
+        font-size: 18px;
+    }
+}
+@media(max-width: 768px){
+    .first_screen_menu{
+        padding-top: 28px;
+        padding-left: 140px;
+        width: 214px;
+        gap: 15px;
+        font-size: 18px;
+    }
+}
+@media(max-width: 425px){
+    .first_screen_menu{
+        padding-top: 6px;
+        padding-left: 28px;
+        width: 43px;
+        gap: 6px;
+        font-size: 18px;
+    }
+}
+@media(max-width: 375px){
+    .first_screen_menu{
+        display: flex;
+        padding-top: 5px;
+        padding-left: 120px;
+        width: 184px;
+        gap: 12px;
+        font-size: 18px;
+    }
 }
 
 .first-screen_menu :hover{
@@ -32,6 +89,27 @@
     font-size: 48px;
     line-height: 79px;
     font-weight: 500;
+}@media(max-width: 1024px){
+    .first_screen_box{
+        height: 22px;
+        width: 270px;
+        padding-top: 81px;
+        padding-left: 200px;
+        font-size: 44px;
+        line-height: 39px;
+        font-weight: 400;
+    }
+}
+@media(max-width: 768px){
+    .first_screen_box{
+        height: 15px;
+        width: 189px;
+        padding-top: 57px;
+        padding-left: 140px;
+        font-size: 31px;
+        line-height: 27px;
+        font-weight: 400;
+    }
 }
 
 .first-screen_content{
